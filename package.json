@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles",
+    "start" : "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.11",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.0",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "modified_fawn": "^2.1.5",
+    "moment": "^2.30.1",
+    "mongoose": "^8.3.2",
+    "supertest": "^7.0.0",
+    "winston": "^3.13.0",
+    "winston-mongodb": "^5.1.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
